@@ -244,6 +244,7 @@ body {
 /*Template 3*/
 
 #template_box_three {
+	cursor: pointer;
 	background-image: url("images/solar.jpg");
 	font-family: 'Montserrat', sans-serif;
 	background-size: 800px 600px;

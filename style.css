@@ -1,0 +1,313 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Exercise One Stlying*/
+
+#sponsor_box {
+	font-family: arial;
+	color: grey;
+	width: 300px;
+	border: 1px solid black;
+	border-radius: 2%;
+}
+
+#sponsor_feature {
+	background-color: #99cc00;
+	width: 135px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 3%;
+	position: relative;
+	top: -8px;
+	left: 7px;
+}
+
+#sponsor_feature h6 {
+	size: 10px;
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+
+#sponsor_image {
+	position: relative;
+	width: 285px;
+	overflow: hidden;
+	-webkit-animation: image_zoom 3s ease-in-out infinite alternate;
+}
+
+/*Sponsor Image Animation*/
+
+@-webkit-keyframes image_zoom {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+#image_wrapper {
+	position: relative;
+	width: 285px;
+	height: 190px;
+	left: 7px;
+	overflow: hidden;
+}
+
+
+
+#sponsor_title {
+	margin-top: 5px;
+	margin-bottom: 0;
+	padding-left: 7px;
+	color: black;
+	font-size: 17px;
+}
+
+#links {
+	padding-left: 7px;
+	margin-top: 2px;
+	margin-bottom: 15px;
+}
+
+#links ul {
+	list-style-type: none;
+	width: 285px;
+}
+
+#links li {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#links li a {
+	text-decoration: none;
+	color: #00b386;
+	border-right: 1px solid grey;
+	padding-right: 4px;
+}
+
+
+/*Exercise Two Stlying*/
+
+/*Template One*/
+
+#template_box_one {
+	width: 700px;
+	height: 222px;
+	border: 1px solid black;
+	background-color: black;
+}
+
+#ai_image {
+	position: relative;
+	width: 350px;
+	float: right;
+	cursor: pointer;
+}
+
+#text_box_one {
+	position: relative;
+	font-family: arial narrow;
+	text-transform: uppercase;
+	text-align: right;
+	width: 350px;
+
+}
+
+#sponsored_by {
+	color: #b60e75;
+	font-weight: 200;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+#sponsored_by a {
+	text-decoration: none;
+	color: white;
+}
+
+#sponsored_by:hover a {
+	color: #b60e63;
+}
+
+#title_one {
+	font-weight: 800;
+	margin-top: 0;
+	margin-right: 20px;
+	margin-bottom: 0;
+	color: white;
+	cursor: pointer;
+}
+
+#title_one:hover {
+	color: #b60e63;
+}
+
+#by {
+	margin: 0;
+	color: white;
+	font-weight: 200;
+	margin-right: 4px;
+	display: inline-block;
+}
+
+#will_smith {
+	font-weight: bold;
+	margin-right: 20px;
+	margin-top: 0;
+	color: #b60e75;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#will_smith:hover {
+	color: #b60e63;
+}
+
+/*Template Two*/
+
+#template_box_two {
+	width: 200px;
+	height: 300px;
+	/*border: 1px solid black;*/
+	cursor: pointer;
+	font-family: 'Neuton', serif;
+}
+
+#alexis_image {
+	width: 180px;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	background-color: grey;
+}
+
+#arsenal_image {
+	width: 90px;
+	position: relative;
+	top: -110px;
+	left: 50px;
+	opacity: 0;
+}
+
+#template_box_two:hover {
+	background-color: #E8E8E8;
+    -webkit-transition: background 0.5s;
+}
+
+#template_box_two:hover #arsenal_image {
+	opacity: 1;
+	-webkit-transition: 0.5s;
+}
+
+#template_box_two:hover #alexis_image {
+	opacity: 0.5;
+	-webkit-transition: 0.5s;
+}
+
+#text_box_two {
+	position: relative;
+	top: -115px;
+}
+
+#sponsor_two {
+	left: 10px;
+	position: relative;
+	margin-bottom: 0;
+
+}
+
+#sponsor_two a {
+	text-decoration: none;
+	color: #3399FF;
+}
+
+#title_two {
+	left: 10px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	position: relative;
+	margin-right: 20px;
+}
+
+#text_two {
+	left: 10px;
+	margin-top: 0;
+	position: relative;
+	margin-right: 20px;
+}
+
+/*Template 3*/
+
+#template_box_three {
+	background-image: url("images/solar.jpg");
+	font-family: 'Montserrat', sans-serif;
+	background-size: 800px 600px;
+	width: 400px;
+	height: 400px;
+	opacity: .6;
+	background-position: top center; 
+}
+
+#template_box_three:hover {
+	opacity: 1;
+}
+
+#solar_city {
+	position: relative;
+	width: 50px;
+	left: 132px;
+	top: -4px;
+}
+
+#sponsor_three {
+	
+	position: relative;
+	top: 10px;
+	left: 10px;
+	margin-bottom: 0;
+}
+
+#title_three {
+	position: relative;
+	top: 60px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#subtitle {
+	position: relative;
+	top: 70px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+#read_button {
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	position: relative;
+	left: 125px;
+	top: 80px;
+	border-radius: 3%;
+}
+
+#read_button p {
+	position: relative;
+	text-align: center;
+	top: 6px;
+}
+
+#template_box_three:hover #read_button {
+	background-color: #0c7a3d;
+}
+
+#template_box_three:hover #read_button p {
+	color: white;
+}
+
